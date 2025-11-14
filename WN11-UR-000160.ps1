@@ -11,10 +11,10 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN11-AU-000160
+    STIG-ID         : WN11-UR-000160
 
 .USAGE
-    PS C:\> .\__remediation_template(WN11-AU-000160).ps1 
+    PS C:\> .\__remediation_template(WN11-UR-000160).ps1 
 #>
 
 # Run in an elevated (Run as administrator) PowerShell
