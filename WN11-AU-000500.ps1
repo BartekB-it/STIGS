@@ -14,7 +14,7 @@
     STIG-ID         : WN11-AU-000500
 
 .USAGE
-    PS C:\> .\__remediation_template(STIG-ID-WN11-AU-000500).ps1 
+    PS C:\> .\__remediation_template(WN11-AU-000500).ps1 
 #>
 
 # Run in an elevated (Run as administrator) PowerShell
