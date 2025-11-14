@@ -14,8 +14,6 @@
     STIG-ID         : WN11-AU-000500
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN11-AU-000500).ps1 
 #>
 
@@ -23,7 +21,7 @@
 
 $regPath = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application'
 $valueName = 'MaxSize'
-$valueData = 0x00008000   # same as dword:00008000
+$valueData = 0x00008000
 
 # Ensure the key exists
 if (-not (Test-Path $regPath)) {
